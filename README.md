@@ -6,7 +6,7 @@ ZoomZing: A Stunning Photography Website Crafted with Tailwind CSS
 
 ## Demo
 
-[ZoomZing]()
+![Demo](./assets/chrome-capture-2023-1-25.gif)
 
 
 
