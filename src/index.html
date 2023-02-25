@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoomZing</title>
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="../dist/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="text-gray-400 bg-gray-900 body-font ">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a href="#Home" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <span class="ml-3 text-xl">ZoomZing</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#Home" class="mr-5 hover:text-white">Home</a>
+                <a href="#Pricing" class="mr-5 hover:text-white">Pricing</a>
+                <a href="#Testimonials" class="mr-5 hover:text-white">Testimonials</a>
+                <a href="#Contact" class="mr-5 hover:text-white">Contact</a>
+            </nav>
+            <a href="#Contact">
+                <button
+                    class="inline-flex items-center bg-green-800 text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-900 rounded text-white mt-4 md:mt-0">Hire
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </a>
+        </div>
+    </header>
+    <!-- hero -->
+    <section id="Home" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-Basic Package md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Zoom into the Moment
+                    <br class="hidden lg:inline-block"> with ZoomZing
+                </h1>
+                <p class="mb-8 leading-relaxed">Memories that will last a lifetime, captured by ZoomZing's passionate
+                    photographers. From weddings to family portraits, let ZoomZing's creative and personalized apPremium
+                    Packageach
+                    to photography bring your vision to life</p>
+                <div class="flex justify-center">
+                    <a href="#content">
+                        <button
+                            class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Explore
+                            Our Gallery</button>
+                    </a>
+                    <a href="#Contact">
+                        <button
+                            class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg  js-tilt">Schedule
+                            a Shoot</button>
+                    </a>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded hero-svg " alt="hero" src="../assets/camera.svg">
+            </div>
+        </div>
+    </section>
+    <!-- content -->
+    <section id="content" class="text-gray-400 body-font bg-gray-900">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Transforming Your Vision
+                        into
+                        Reality</h1>
+                    <div class="h-1 w-20 bg-green-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">Our Photography, Your Vision:
+                    Together We Make Magic. At ZoomZing, we believe that the best photography comes from a collaborative
+                    Premium Packagecess between the photographer and the client, which is why we strive to understand
+                    your unique
+                    vision and bring it to life with creativity and passion.</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="https://picsum.photos/720/400/?weeding" alt="content">
+                        <h3 class="tracking-widest text-green-400 text-xs font-medium title-font"></h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Wedding Photography</h2>
+                        <p class="leading-relaxed text-base">A Timeless Reminder of Your Special Day</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="https://picsum.photos/720/400/?potrait" alt="content">
+                        <h3 class="tracking-widest text-green-400 text-xs font-medium title-font"></h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Portrait Photography</h2>
+                        <p class="leading-relaxed text-base">Capturing Your Unique Personality and Style.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="https://picsum.photos/720/400/?landscape" alt="content">
+                        <h3 class="tracking-widest text-green-400 text-xs font-medium title-font"></h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Landscape Photography</h2>
+                        <p class="leading-relaxed text-base">Discovering the Beauty of the World Around Us.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6"
+                            src="https://picsum.photos/720/400/?event" alt="content">
+                        <h3 class="tracking-widest text-green-400 text-xs font-medium title-font"></h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Event Photography</h2>
+                        <p class="leading-relaxed text-base">Event Photography.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing -->
+    <section id="Pricing" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Pricing</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Flexible Pricing to Fit Your Budget</p>
+            </div>
+            <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+                <table class="table-auto w-full text-left whitespace-no-wrap">
+                    <thead>
+                        <tr>
+                            <th
+                                class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">
+                                Plan</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Time of Delivery</th>
+                            <!-- <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Storage</th> -->
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Price</th>
+                            <th
+                                class="w-10 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tr rounded-br">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-4 py-3">Basic Package</td>
+                            <td class="px-4 py-3">4 Days</td>
+                            <!-- <td class="px-4 py-3">15 GB</td> -->
+                            <td class="px-4 py-3 text-lg text-white">Free</td>
+                            <td class="w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">Premium Package</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">3 Days</td>
+                            <!-- <td class="border-t-2 border-gray-800 px-4 py-3">25 GB</td> -->
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">$24</td>
+                            <td class="border-t-2 border-gray-800 w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">Deluxe Package"</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">2 Days</td>
+                            <!-- <td class="border-t-2 border-gray-800 px-4 py-3">40 GB</td> -->
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">$50</td>
+                            <td class="border-t-2 border-gray-800 w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">Custom Package</td>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">1 Day</td>
+                            <!-- <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">120 GB</td> -->
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3 text-lg text-white">$72</td>
+                            <td class="border-t-2 border-b-2 border-gray-800 w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+                <a class="text-green-400 inline-flex items-center md:mb-2 lg:mb-0">Discover More
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                <button
+                    class="flex ml-auto text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">Book
+                    Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="Testimonials" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://blobcdn.same.energy/a/1c/ef/1cef5748d9e6142de6d12af0c1008ba131612877">
+                        <p class="leading-relaxed">ZoomZing was the perfect choice for my wedding photography needs. The
+                            photographer was so accommodating and went above and beyond to capture every special moment
+                            from our big day. The photos turned out absolutely beautiful, and we will cherish them
+                            forever. The team at ZoomZing was professional, timely, and responsive to all of our
+                            requests. We would definitely recommend them to anyone looking for stunning wedding photos
+                        </p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-white font-medium title-font tracking-wider text-sm">Vickey</h2>
+                        <p class="text-gray-500">Senior Product Designer</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://blobcdn.same.energy/b/9f/55/9f555907a83881fe5b7e66b67f49270cfe9e1f09">
+                        <p class="leading-relaxed">I couldn't be happier with the photos I received from ZoomZing. The
+                            photographer was so friendly and professional, and made me feel at ease throughout the
+                            entire shoot. The photos captured my personality and style perfectly, and I have received so
+                            many compliments on them. I highly recommend ZoomZing for anyone looking for high-quality
+                            and affordable portrait photography.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-white font-medium title-font tracking-wider text-sm">Zeeshan</h2>
+                        <p class="text-gray-500">Front end Develeoper</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://blobcdn.same.energy/b/32/b5/32b55522b56220302d7ce1d95e2b111a56b02ebd">
+                        <p class="leading-relaxed">As an event planner, I have worked with ZoomZing on multiple
+                            occasions, and I am always impressed with their professionalism and creativity. They have a
+                            keen eye for capturing the essence of each event, and the photos always turn out
+                            beautifully. They are able to work within tight timelines and budgets, and always exceed our
+                            expectations. I would highly recommend ZoomZing for anyone looking for event photography
+                            that truly captures the spirit of the occasion..</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-white font-medium title-font tracking-wider text-sm">Zaman</h2>
+                        <p class="text-gray-500">UI Develeoper</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="Contact" class="text-gray-400 bg-gray-900 body-font relative">
+        <form action="https://formspree.io/f/xrgvevkw" method="post">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-12">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact ZoomZing</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Send us a message and we'll get back to you
+                        soon
+                    </p>
+                </div>
+                <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                    <div class="flex flex-wrap -m-2">
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+                                <input type="text" id="name" name="name"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            </div>
+                        </div>
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+                                <input type="email" id="email" name="email"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                    style="background-image: url("
+                                    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpiYmZkZTQxOS00ZGRkLWU5NDYtOWQ2MC05OGExNGJiMTA3N2YiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDAyNDkwMkRDOTIyMTFFNkI0MzFGRTk2RjM1OTdENTciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDAyNDkwMkNDOTIyMTFFNkI0MzFGRTk2RjM1OTdENTciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTU2NTE1NDItMmIzOC1kZjRkLTk0N2UtN2NjOTlmMjQ5ZGFjIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOmJiZmRlNDE5LTRkZGQtZTk0Ni05ZDYwLTk4YTE0YmIxMDc3ZiIv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") !important; background-repeat: no-repeat; background-size: 20px; background-position: 97% center; cursor: auto;"
+                                    data-temp-mail-org="0">
+                            </div>
+                        </div>
+                        <div class="p-2 w-full">
+                            <div class="relative">
+                                <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+                                <textarea id="message" name="message"
+                                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-green-500 focus:bg-gray-900 focus:ring-2 focus:ring-green-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                            </div>
+                        </div>
+                        <div class="p-2 w-full">
+                            <button
+                                class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Send
+                                Message</button>
+                        </div>
+                        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                            <a class="text-green-400">zeshanmukhtar878@gmail.com</a>
+                            <p class="leading-normal my-5">Lodhran Punjab
+                                <br>Pakistan
+                            </p>
+                            <span class="inline-flex">
+                                <a href="https://www.facebook.com/profile.php?id=100070572332885" class="text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://twitter.com/ZeshanMukhtar01" class="ml-4 text-gray-500">
+                                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a href="https://twitter.com/ZeshanMukhtar01" class="ml-4 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
